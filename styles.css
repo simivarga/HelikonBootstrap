@@ -1,0 +1,43 @@
+*{
+    font-family: montserrat;
+    
+}
+
+.nav-link:hover{
+    background-color: #6B7B62;
+}
+
+nav {
+    background-color: rgba(66, 76, 59, 0); 
+}
+.navbar {
+    height: 12vh;
+    background-color: rgba(0,0,0,.6);
+}
+.navbar-toggler{
+    background-color: rgba(255, 255, 255, 0.37);
+    
+}
+
+.navbar-nav {
+    font-size: 24px;
+}
+.carousel-item {
+    max-height: 910px;
+}
+.carousel-caption {
+    top: 45%;
+}
+.second{
+background-color:#6B7B62
+}
+.second h2{
+    width: 55vh;
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.37);
+}
+.second p {
+    width: 65vh;
+    font-size: 20px;
+   
+}
