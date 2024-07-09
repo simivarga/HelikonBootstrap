@@ -13,7 +13,10 @@ body{
 c-item {
     height: 300px;
    }
-
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
 c-img {
     height: 100%;
     object-fit: cover;
@@ -34,6 +37,9 @@ c-img {
 .bg-dark-green{
     background-color: var(--dark-green);
 }
+.bg-light-green{
+    background-color: var(--light-green);
+}
 .text-title-color{
     color: var(--title-text-color) !important;
 }
@@ -53,4 +59,39 @@ c-img {
 }
 .w-50{
     width: 50%;
+}
+
+
+
+@media (max-width:1200px){
+    .no-padding{
+        padding: 0 !important;
+    }
+}
+@media (max-width:991px) {
+    .kozep{
+        text-align: center !important;
+    }
+   
+
+
+}
+@media (max-width:991px) and (min-width:767px){
+    .card-height{
+        height: 350px !important;
+    }
+    .button-padding{
+        margin-top: 14px !important;
+    }
+}
+@media (max-width: 480px){
+    .smaller-title{
+        font-size: 32px !important;
+    }
+    .smaller-helikon{
+        font-size: 37px !important;
+    }
+    .smaller-p{
+        font-size: 15px !important;
+    }
 }

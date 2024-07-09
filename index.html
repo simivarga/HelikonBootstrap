@@ -26,19 +26,19 @@
         <div class="collapse navbar-collapse p-3" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item ms-0 ms-md-3">
-              <a class="nav-link fs-3 fw-bold text-white text-center"" aria-current="page" href="#">Готель </a>
+              <a class="nav-link fs-3 fw-bold text-white text-center no-padding" aria-current="page" href="#rooms">Готель </a>
             </li>
             <li class="nav-item ms-0 ms-md-3">
-              <a class="nav-link fs-3 fw-bold text-white text-center" href="#">Ресторан </a>
+              <a class="nav-link fs-3 fw-bold text-white text-center no-padding" href="#">Ресторан </a>
             </li>
             <li class="nav-item ms-0 ms-md-3">
-              <a class="nav-link fs-3 fw-bold text-white text-center"" href="#">Соляна кімната</a>
+              <a class="nav-link fs-3 fw-bold text-white text-center no-padding" href="#">Соляна кімната</a>
             </li>
             <li class="nav-item ms-0 ms-md-3">
-              <a class="nav-link fs-3 fw-bold text-white text-center"" href="#">Конференц-зал</a>
+              <a class="nav-link fs-3 fw-bold text-white text-center no-padding"href="#">Конференц-зал</a>
             </li>
             <li class="nav-item ms-0 ms-md-3">
-              <a class="nav-link fs-3 fw-bold text-white text-center"" href="#">Контакти</a>
+              <a class="nav-link fs-3 fw-bold text-white text-center no-padding" href="#">Контакти</a>
             </li>
           </ul>
         </div>
@@ -46,8 +46,8 @@
     </nav>
     <div class="hero">
       <div class="wrapper ">
-            <h1 class="text-white fs-1 fw-bold">HELIKON</h1>
-            <p class="lead text-white fs-2 w-50">Втілення гостинності та смаку в серці природи</p>
+            <h1 class="text-white fw-bold w-50 smaller-helikon" style="font-size: 46px ; letter-spacing: 6px;">HELIKON</h1>
+            <p class="lead text-white w-50 smaller-p" style="font-size: 27px;">Втілення гостинності та смаку в серці природи</p>
 
       </div>
     </div>
@@ -58,8 +58,8 @@
     <div class="container py-5 mt-1">
       <div class="row align-items-center justify-content-center g-5">
         <div class="col-12 col-lg-6">
-          <h1 class="fw-bold text-title-color pb-3" style="font-size: 50px;">РОЗТАШУВАННЯ</h1>
-          <p class="lead text-white fs-3">
+          <h1 class="fw-bold text-title-color pb-3 kozep smaller-title" style="font-size: 45px;">РОЗТАШУВАННЯ</h1>
+          <p class="lead text-white fs-4 smaller-p kozep">
             Готельно-ресторанний комплекс Helikon розташований в селі Яноші,
              що знаходиться в прекрасній Закарпатській області. Наш комплекс відпочинку пропонує 
              гостям комфортні номери та страви ресторану зі смачною місцевою кухнею.
@@ -100,19 +100,66 @@
     </div>
   </section>
  
-    <section>
-      <div class="container py-5 ">
-        <div class="row row-cols-1 row-cols-md-3 justify-content-center g-5 ">
-          <div class="col-12 col-sm-4">
-            <div class="card shadow-sm" style="width: 22rem;">
+    <section class="bg-light-green mt-2" id="rooms">
+      <div class="container py-4">
+        <div class="row row-cols-1 row-cols-md-3 justify-content-center g-4 ">
+          <div class="col-12 col-lg-4">
+            <div class="card shadow card-height">
               <img src="assets/reception.jpg" class="card-img-top" alt="reception">
-              <div class="card-body ">
-                <h5 class="card-title fw-bold">Мансард</h5>
-                <button class="btn btn-primary px-3 fw-medium">Подивитись</button>
+              <div class="card-body bf m-auto">
+                <h5 class="card-title fw-bold text-center fs-4 button-padding">Мансард</h5>
+                <button class="btn btn-primary px-3 fw-medium button-padding"><a href="">Подивитись</a></button>
               </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card shadow">
+              <img src="assets/reception.jpg" class="card-img-top" alt="reception">
+              <div class="card-body m-auto text-center">
+                <h5 class="card-title fw-bold text-center fs-4">Стандарт Двомісний</h5>
+                <button class="btn btn-primary px-3 fw-medium" ><a href="" class="">Подивитись</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card shadow">
+              <img src="assets/reception.jpg" class="card-img-top" alt="reception">
+              <div class="card-body m-auto text-center">
+                <h5 class="card-title fw-bold text-center fs-4">Стандарт Тримісний</h5>
+                <button class="btn btn-primary  px-3 fw-medium"><a href="">Подивитись</a></button>
+              </div>
+            </div>
           </div>
         </div>
-    
+        <div class="row row-cols-1 row-cols-md-3 justify-content-center g-4 mt-1">
+          <div class="col-12 col-lg-4">
+            <div class="card shadow ">
+              <img src="assets/reception.jpg" class="card-img-top" alt="reception">
+              <div class="card-body bf m-auto">
+                <h5 class="card-title fw-bold text-center fs-4">Напівлюкс</h5>
+                <button class="btn btn-primary px-3 fw-medium"><a href="">Подивитись</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card shadow">
+              <img src="assets/reception.jpg" class="card-img-top" alt="reception">
+              <div class="card-body m-auto text-center">
+                <h5 class="card-title fw-bold text-center fs-4">Люкс</h5>
+                <button class="btn btn-primary px-3 fw-medium " ><a href="" class="">Подивитись</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card shadow">
+              <img src="assets/reception.jpg" class="card-img-top" alt="reception">
+              <div class="card-body m-auto text-center">
+                <h5 class="card-title fw-bold text-center fs-4">Сімейний</h5>
+                <button class="btn btn-primary  px-3 fw-medium"><a href="">Подивитись</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
       
