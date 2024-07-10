@@ -9,7 +9,19 @@ body{
     --dark-green: rgba(66, 76, 59, 1);
     --title-text-color: rgba(255, 255, 255, 0.37);
 }
+footer{
+    background-image: url('assets/footer.jpg');
+    background-size: cover;
+    
+    background-position: center center;
+}
 
+.footer-filter{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    height: 100%;
+    backdrop-filter: blur(20) !important;
+}
 c-item {
     height: 300px;
    }
@@ -34,6 +46,13 @@ c-img {
     color: var(--title-text-color) !important;
     transition: .2s linear;
 }
+.btn-primary:hover{
+    background-color: var(--light-green) !important;
+}
+.btn-secondary:hover{
+    background-color: var(--dark-green) !important;
+}
+
 .bg-dark-green{
     background-color: var(--dark-green);
 }
@@ -47,20 +66,33 @@ c-img {
     background-color: var(--dark-green) !important;
     border-color: var(--dark-green) !important;
 }
-
-
+.btn-secondary{
+    background-color: var(--light-green) !important;
+    border-color: var(--light-green) !important;
+}
+.card{
+    transition: .4s;
+}
+.card:hover{
+    transform: scale(1.05) !important;
+    box-shadow: black !important;
+    z-index: 1;
+    transition: .4s;
+}
 .hero{
     height: 85vh;
 }
 .wrapper{
     position: relative;
-    top: 50%;
-    left: 20%;
+    top: 57%;
+    left: 10%;
 }
 .w-50{
     width: 50%;
 }
-
+.pdv{
+    font-size: 15px !important;
+}
 
 
 @media (max-width:1200px){
