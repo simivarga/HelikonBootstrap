@@ -20,7 +20,11 @@ footer{
     background-color: rgba(0, 0, 0, 0.7);
     position: relative;
     height: 100%;
-    backdrop-filter: blur(20) !important;
+}
+.salt-room-filter{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    height: 100%;
 }
 c-item {
     height: 300px;
@@ -34,7 +38,19 @@ c-img {
     object-fit: cover;
     filter: brightness(50%);
 }
+.conference{
+    background-image: url(assets/conference.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 
+}
+.salt-room{
+    background-image: url(assets/salt-room.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
 .gradient {background-image: url("assets/background.png");
     background-size: cover !important;
      background-position: center center;
@@ -51,6 +67,13 @@ c-img {
 }
 .btn-secondary:hover{
     background-color: var(--dark-green) !important;
+}
+i{
+    transition: .2s linear;
+}
+a:hover i{
+    color: var(--title-text-color) !important;
+    transition: .2s linear;
 }
 
 .bg-dark-green{
@@ -99,14 +122,19 @@ c-img {
     .no-padding{
         padding: 0 !important;
     }
+    .card-width{
+        max-width: 50vh !important;
+    }
+    
+    
 }
 @media (max-width:991px) {
     .kozep{
         text-align: center !important;
     }
-   
-
-
+    .jc-center{
+        justify-content: center !important;
+    }
 }
 @media (max-width:991px) and (min-width:767px){
     .card-height{
@@ -125,5 +153,9 @@ c-img {
     }
     .smaller-p{
         font-size: 15px !important;
+    }
+    .card-width{
+        max-width: 40vh !important;
+        height: 60vh !important;
     }
 }
