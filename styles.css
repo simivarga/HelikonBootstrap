@@ -4,6 +4,10 @@
 body{
     overflow-x: hidden;
 }
+::selection {
+    color: rgb(50, 49, 49) !important;
+    background: rgb(96, 96, 96);
+  }
 :root {
     --light-green: #6B7B62 ;
     --dark-green: rgba(66, 76, 59, 1);
@@ -57,6 +61,18 @@ c-img {
      width: 100%;
     height: 100%; ;
 }
+.food {
+    background-image: url("assets/kaja.jpg");
+        background-color: rgba(26, 26, 26, 0.618);
+    background-blend-mode: multiply;
+    background-size: cover;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+
+
+
 
 .nav-link:hover{
     color: var(--title-text-color) !important;
@@ -157,5 +173,20 @@ a:hover i{
     .card-width{
         max-width: 40vh !important;
         height: 60vh !important;
+    }
+    .btn-resp{
+        width: 20vh !important; height: 45px !important; 
+    }
+    .bigger-title{
+        font-size: 42px !important;
+    }
+}
+
+@media (max-width:360px) {
+    .card-width{
+        max-width: 33vh !important;
+    }
+    .top{
+        top: 5% !important;
     }
 }
