@@ -1,5 +1,9 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden !important;
+}
 *{
-    font-family: montserrat;
+    font-family: 'Serif', montserrat !important;
 }
 body{
     overflow-x: hidden;
@@ -14,12 +18,32 @@ body{
     --title-text-color: rgba(255, 255, 255, 0.37);
 }
 footer{
-    background-image: url('assets/footer.jpg');
+    background-image: url('assets/footer.webp');
     background-size: cover;
     
     background-position: center center;
 }
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
+nav{
+    transition: .25s linear;
+}
 
+.navbar-bg{
+    background-color: #15200F !important; 
+    color: white;
+}
+.navbar_dark{
+    transition: .15s;
+}
+.navbar-dark .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-dark .navbar-toggler{
+    border: 0;
+}
 .footer-filter{
     background-color: rgba(0, 0, 0, 0.7);
     position: relative;
@@ -30,20 +54,18 @@ footer{
     position: relative;
     height: 100%;
 }
+
 c-item {
     height: 300px;
    }
-a{
-    text-decoration: none !important;
-    color: white !important;
-}
+
 c-img {
     height: 100%;
     object-fit: cover;
     filter: brightness(50%);
 }
 .conference{
-    background-image: url(assets/conference.png);
+    background-image: url(assets/conference.webp);
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -55,14 +77,14 @@ c-img {
     height: 100%;
     width: 100%;
 }
-.gradient {background-image: url("assets/background.png");
+.gradient {background-image: url("assets/background.webp");
     background-size: cover !important;
-     background-position: center center;
-     width: 100%;
-    height: 100%; ;
+    background-position: center center;
+    width: 100%;
+   
 }
 .food {
-    background-image: url("assets/kaja.jpg");
+    background-image: url("assets/kaja.webp");
         background-color: rgba(26, 26, 26, 0.618);
     background-blend-mode: multiply;
     background-size: cover;
@@ -151,6 +173,9 @@ a:hover i{
     .jc-center{
         justify-content: center !important;
     }
+    .a-pt{
+        padding-top: 15px !important;
+    }
 }
 @media (max-width:991px) and (min-width:767px){
     .card-height{
@@ -160,6 +185,8 @@ a:hover i{
         margin-top: 14px !important;
     }
 }
+
+
 @media (max-width: 480px){
     .smaller-title{
         font-size: 32px !important;
@@ -171,8 +198,8 @@ a:hover i{
         font-size: 15px !important;
     }
     .card-width{
-        max-width: 40vh !important;
-        height: 60vh !important;
+        max-width: 90% !important;
+        height: 65vh !important;
     }
     .btn-resp{
         width: 20vh !important; height: 45px !important; 
@@ -184,7 +211,7 @@ a:hover i{
 
 @media (max-width:360px) {
     .card-width{
-        max-width: 33vh !important;
+        max-width: 90% !important;
     }
     .top{
         top: 5% !important;
