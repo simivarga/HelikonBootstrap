@@ -13,7 +13,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
   <body>
-    <header class="gradient">
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark m-auto" style="width: 100%;">
       <div class="container py-2">
         <img src="assets/logo.webp" style="width: 50px" alt="">
@@ -49,20 +48,19 @@
         </div>
       </div>
     </nav>
-    <div class="hero">
-      <div class="wrapper" style="width: 90%;">
-            <h1 class="text-white fw-bold w-50 smaller-helikon pb-1" style="font-size: 40px ; letter-spacing: 6px; line-height: 1.2;">HELIKON</h1>
-            <p class="lead text-white w-50 smaller-p" style="font-size: 22px;">Втілення гостинності та смаку в серці природи</p>
+
+    <section class="hero">
+      <div class="wrapper" >
+            <h1 class="text-white fw-bold w-50 smaller-helikon pb-1" >HELIKON</h1>
+            <h4 class="text-white w-50 smaller-p" style="font-size: 22px;">Втілення гостинності та смаку в серці природи</h4>
             <p class="socials mt-3 lead">
-              <a href="https://www.instagram.com/hotel.helikon?igshid=MzRlODBiNWFlZA%3D%3D" target="_blank"><i class="bi bi-instagram text-white fs-3 me-3"></i></a>
-              <a href="https://www.facebook.com/helikonhotel/" target="_blank"><i class="bi bi-facebook text-white fs-3 mx-3"></i></a>
-              <a href="https://t.me/helikon_hotel" target="_blank"><i class="bi bi-telegram text-white fs-3 mx-3"></i></a>
-              <a href="tel:+380505943791" target="_blank"><i class="bi bi-telephone text-white fs-3 mx-3"></i></a>
+              <a href="https://www.instagram.com/hotel.helikon?igshid=MzRlODBiNWFlZA%3D%3D" aria-label="instagram" target="_blank"><i class="bi bi-instagram text-white fs-3 me-3"></i></a>
+              <a href="https://www.facebook.com/helikonhotel/" target="_blank" aria-label="facebook"><i class="bi bi-facebook text-white fs-3 mx-3"></i></a>
+              <a href="https://t.me/helikon_hotel" target="_blank" aria-label="telegram"><i class="bi bi-telegram text-white fs-3 mx-3"></i></a>
+              <a href="tel:+380505943791" target="_blank" aria-label="telephone"><i class="bi bi-telephone text-white fs-3 mx-3"></i></a>
             </p>
       </div>
-    </div>
-    
-  </header>
+    </section>
   
   <section class=" bg-dark-green">
     <div class="container py-5 mt-1">
@@ -84,16 +82,25 @@
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
               </div>
               <div class="carousel-inner shadow">
                 <div class="carousel-item active c-item">
+                  <img src="assets/hoteltext.webp" class="d-block c-img w-100" alt="helikontext" y>
+                </div>
+                <div class="carousel-item  c-item">
                   <img src="assets/reception.webp" class="d-block c-img w-100" alt="reception">
                 </div>
-                <div class="carousel-item c-item">
-                  <img src="assets/hoteltext.webp" class="d-block c-img w-100" alt="helikontext">
-                </div>
+                
                 <div class="carousel-item c-item">
                   <img src="assets/monument.webp" class="d-block c-img w-100" alt="monument">
+                </div>
+                <div class="carousel-item c-item">
+                  <img src="assets/park3.webp" class="d-block c-img w-100" alt="asd">
+                </div>
+                <div class="carousel-item c-item">
+                  <img src="assets/bridge.webp" class="d-block c-img w-100" alt="asd">
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -120,8 +127,8 @@
             <div class="card shadow card-height">
               <img src="assets/reception.webp" class="card-img-top" alt="reception">
               <div class="card-body bf m-auto">
-                <h5 class="card-title fw-bold text-center fs-5 button-padding">Мансард</h5>
-                <a href="rooms/room_mansard.html" class=""><button class="btn btn-primary px-3 fw-bold" >1200 грн</button></a>
+                <h2 class="card-title fw-bold text-center fs-5 button-padding">Мансард</h2>
+                <a href="rooms/room_mansard.html" aria-label="mansard-room" class=""><button class="btn btn-primary px-3 fw-bold" >1200 грн</button></a>
               </div>
             </div>
           </div>
@@ -129,8 +136,8 @@
             <div class="card shadow">
               <img src="assets/reception.webp" class="card-img-top" alt="reception">
               <div class="card-body m-auto text-center">
-                <h5 class="card-title fw-bold text-center fs-5">Стандарт Двомісний</h5>
-                <a href="rooms/standard.html" class=""><button class="btn btn-primary px-3 fw-bold" >1400 грн</button></a>
+                <h2 class="card-title fw-bold text-center fs-5">Стандарт Двомісний</h2>
+                <a href="rooms/standard.html" aria-label="standard-room" class=""><button class="btn btn-primary px-3 fw-bold" >1400 грн</button></a>
               </div>
             </div>
           </div>
@@ -138,8 +145,8 @@
             <div class="card shadow">
               <img src="assets/reception.webp" class="card-img-top" alt="reception">
               <div class="card-body m-auto text-center">
-                <h5 class="card-title fw-bold text-center fs-5">Стандарт Тримісний</h5>
-                <a href="rooms/standard3.html" class=""><button class="btn btn-primary px-3 fw-bold" >1800 грн</button></a>
+                <h2 class="card-title fw-bold text-center fs-5">Стандарт Тримісний</h2>
+                <a href="rooms/standard3.html" aria-label="standard-3-room" class=""><button class="btn btn-primary px-3 fw-bold" >1800 грн</button></a>
               </div>
             </div>
           </div>
@@ -149,8 +156,8 @@
             <div class="card shadow ">
               <img src="assets/reception.webp" class="card-img-top" alt="reception">
               <div class="card-body bf m-auto text-center">
-                <h5 class="card-title fw-bold text-center fs-5">Напівлюкс</h5>
-                <a href="rooms/half_lux.html" class=""><button class="btn btn-primary px-3 fw-bold" >1800 грн</button></a>
+                <h2 class="card-title fw-bold text-center fs-5" >Напівлюкс</h2>
+                <a href="rooms/half_lux.html" class="" aria-label="half_lux"><button class="btn btn-primary px-3 fw-bold" >1800 грн</button></a>
               </div>
             </div>
           </div>
@@ -158,8 +165,8 @@
             <div class="card shadow">
               <img src="assets/reception.webp" class="card-img-top" alt="reception">
               <div class="card-body m-auto text-center">
-                <h5 class="card-title fw-bold text-center fs-5">Люкс</h5>
-                <a href="rooms/lux.html" class=""><button class="btn btn-primary px-3 fw-bold" >2700 грн</button></a>
+                <h2 class="card-title fw-bold text-center fs-5">Люкс</h2>
+                <a href="rooms/lux.html" class="" aria-label="lux"><button class="btn btn-primary px-3 fw-bold" >2700 грн</button></a>
               </div>
             </div>
           </div>
@@ -167,8 +174,8 @@
             <div class="card shadow">
               <img src="assets/reception.webp" class="card-img-top" alt="reception">
               <div class="card-body m-auto text-center">
-                <h5 class="card-title fw-bold text-center fs-5">Сімейний</h5>
-                <a href="rooms/family.html" class=""><button class="btn btn-primary px-3 fw-bold" >2700 грн</button></a>
+                <h2 class="card-title fw-bold text-center fs-5">Сімейний</h2>
+                <a href="rooms/family.html"  class=""><button class="btn btn-primary px-3 fw-bold" >2700 грн</button></a>
               </div>
             </div>
           </div>
@@ -183,7 +190,7 @@
           <h1 class="text-white fw-bold text-center pb-4 bigger-title" style="font-size: 45px;">РЕСТОРАН</h1>
         </div>
         <div class="row align-items-center justify-content-center">
-          <button class="btn btn-secondary btn-resp fw-bold fs-4" style="width: 25vh; height: 60px;"><a href="https://drive.google.com/file/d/1FAwfvwoarfhli2AD0SBdo2OwLn0RO6tQ/view" target="_blank">МЕНЮ</a></button>
+          <a href="https://drive.google.com/file/d/1FAwfvwoarfhli2AD0SBdo2OwLn0RO6tQ/view" class="text-center" target="_blank"><button class="btn btn-secondary btn-resp fw-bold fs-4" style="width: 25vh; height: 60px;">МЕНЮ</button></a>
         </div>
     </section>
 
@@ -237,7 +244,7 @@
                   <p>Детальнішу інформацію щодо оренди залу та її вартості запитуйте за номером телефону:</p>
                 </div>
                 <div class="row text-center fw-bold fs-2 mt-2">
-                  <a href="tel:+380505943791">+380505943791</a>
+                  <a href="tel:+380505943791" aria-label="tel">+380505943791</a>
                 </div>
                 </div>
               </div>
@@ -253,7 +260,7 @@
               <div class="row">
                   <div class="col-12 col-lg-6">
                       <h2 class="text-white fw-bold text-center">Контакти</h2>
-                      <p class="text-white fw-bold text-center"><a href="tel:+380505943791">+380 (50) 594 37 91</a></p>
+                      <p class="text-white fw-bold text-center"><a href="tel:+380505943791" aria-label="tel">+380 (50) 594 37 91</a></p>
                   </div>
                   <div class="col-12 col-lg-6">
                       <h2 class="text-white fw-bold text-center">Графік роботи</h2>
@@ -273,10 +280,10 @@
               <div class="row">
                 <div class="col-12">
                   <p class="socials mt-3 text-center">
-                    <a href="https://www.facebook.com/helikonhotel/" target="_blank"><i class="bi bi-facebook text-white fs-3 mx-3"></i></a>
-                    <a href="https://www.instagram.com/hotel.helikon?igshid=MzRlODBiNWFlZA%3D%3D" target="_blank"><i class="bi bi-instagram text-white fs-3 mx-3"></i></a>
-                    <a href="https://t.me/helikon_hotel" target="_blank"><i class="bi bi-telegram text-white fs-3 mx-3"></i></a>
-                    <a href="https://maps.app.goo.gl/gHzS9UnfckGbRs8E8" target="_blank"><i class="bi bi-geo-alt text-white fs-3 mx-3"></i></a>
+                    <a href="https://www.facebook.com/helikonhotel/" aria-label="facebook" target="_blank"><i class="bi bi-facebook text-white fs-3 mx-3"></i></a>
+                    <a href="https://www.instagram.com/hotel.helikon?igshid=MzRlODBiNWFlZA%3D%3D" aria-label="instagram" target="_blank"><i class="bi bi-instagram text-white fs-3 mx-3"></i></a>
+                    <a href="https://t.me/helikon_hotel" target="_blank" aria-label="telegram"><i class="bi bi-telegram text-white fs-3 mx-3"></i></a>
+                    <a href="https://maps.app.goo.gl/gHzS9UnfckGbRs8E8" aria-label="maps" target="_blank"><i class="bi bi-geo-alt text-white fs-3 mx-3"></i></a>
                   </p>
                 </div>
               </div>
@@ -298,17 +305,14 @@
           nav.classList.remove('navbar-bg', 'shadow');
         }
       });
-    </script>
-
-<script>
-  $(document).ready(function () {
+      $(document).ready(function () {
     $('.navbar-nav a').on('click', function () {
       if ($('.navbar-toggler').is(':visible')) {
         $('.navbar-collapse').collapse('hide');
       }
     });
   });
-</script>
+    </script>
 
   </body>
 </html>

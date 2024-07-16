@@ -15,7 +15,8 @@ body{
 :root {
     --light-green: #6B7B62 ;
     --dark-green: rgba(66, 76, 59, 1);
-    --title-text-color: rgba(255, 255, 255, 0.37);
+    --hover-text-color: rgba(255, 255, 255, 0.800);
+    --hover-text-color: rgba(255, 255, 255, 0.4);
 }
 footer{
     background-image: url('assets/footer.webp');
@@ -72,15 +73,15 @@ c-img {
 
 }
 .salt-room{
-    background-image: url(assets/salt-room.png);
+    background-image: url(assets/salt-room.webp);
     background-size: cover;
     height: 100%;
     width: 100%;
 }
-.gradient {background-image: url("assets/background.webp");
+.hero {
+    background-image: url("assets/background.webp");
     background-size: cover !important;
-    background-position: center center;
-    width: 100%;
+    
    
 }
 .food {
@@ -97,7 +98,7 @@ c-img {
 
 
 .nav-link:hover{
-    color: var(--title-text-color) !important;
+    color: var(--hover-text-color) !important;
     transition: .2s linear;
 }
 .btn-primary:hover{
@@ -110,7 +111,7 @@ i{
     transition: .2s linear;
 }
 a:hover i{
-    color: var(--title-text-color) !important;
+    color: var(--hover-text-color) !important;
     transition: .2s linear;
 }
 
@@ -121,7 +122,7 @@ a:hover i{
     background-color: var(--light-green);
 }
 .text-title-color{
-    color: var(--title-text-color) !important;
+    color: var(--hover-text-color) !important;
 }
 .btn-primary{
     background-color: var(--dark-green) !important;
