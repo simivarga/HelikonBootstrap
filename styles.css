@@ -1,6 +1,8 @@
 html{
     scroll-behavior: smooth;
     overflow-x: hidden !important;
+    scroll-padding-top: 100px !important;
+      
 }
 *{
     font-family: 'Serif', montserrat !important;
@@ -93,7 +95,25 @@ c-img {
     border-bottom: 1px solid white;
 }
 
-
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 13px !important;
+    height: 13px !important;
+    border-radius: 50%;
+    padding: 0px;
+    margin-right: 8px !important;
+    margin-left: 5px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
 
 
 
